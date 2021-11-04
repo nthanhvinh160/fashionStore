@@ -1,0 +1,91 @@
+
+/* ---------------------------------------------------- */
+
+  #signup-area {
+    padding: 50 720 0 160;
+    line-height: 10px;
+    border: 1px;
+    border-color: #000;
+  }
+  
+  #signup-area h2 {
+    margin: 0 0 70 0;
+    font-size: 50px;  
+  }
+  
+  #signupb {
+    margin: 10 20 0 0;
+    background-color: #629840;
+    height: 40px;
+    width: 130px;  
+    border: none;
+    font-size: 15px;
+    color: white;
+  }
+  
+  #info p {
+    font-size: 20px; 
+    line-height: 30px;
+  }
+  
+  #email, #password {
+    line-height: 2.5rem;
+    width: 377px;
+    border: 1;
+    font-size: 20px;
+    padding-left: 15px;
+  }
+  
+  #another-way {
+    text-align: center;
+    margin: 0 0 100 0;
+    font-size: 20px;
+  }
+  
+  #Facebook {
+    background-color: #3D31CB;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  #Google {
+    background-color: #CB3131;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;  
+  }
+  
+  .wrapper_main {
+    position: relative;
+  }
+  
+  #side-bar {
+    position: absolute;
+    right: 160;
+    top: 100;
+    left: 50%;
+  }
+  
+  #side-bar h3 {
+    font-size: 40px;
+    
+  }
+  
+  #side-bar p {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  
+  #signupButton {
+    background-color: #645B5B;
+    height: 40px;
+    width: 130px;  
+    border: none;
+    font-size: 15px;
+    color: white;  
+  }
