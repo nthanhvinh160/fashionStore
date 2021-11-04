@@ -30,7 +30,7 @@ $(document).ready(function () {
     slidesToScroll: 1,
     speed: 800,
     arrows: false,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 4000,
     dots: true,
     vertical: false
