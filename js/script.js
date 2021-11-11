@@ -28,22 +28,35 @@ $(document).ready(function () {
   $('.slideshow_banner').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
-    speed: 800,
+    speed: 700,
     arrows: false,
+    Infinity: true,
     autoplay: true,
-    autoplaySpeed: 4000,
+    autoplaySpeed: 2500,
     dots: true,
     vertical: false
   });
 });
 $(document).ready(function () {
   $('.slideshow_product').slick({
-    slidesToShow: 1,
+    slidesToShow: 3,
     slidesToScroll: 1,
-    speed: 800,
-    arrows: true,
-    autoplay: false,
-    autoplaySpeed: 4000
+    speed: 600,
+    Infinity: true,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    arrows: true
+  });
+});
+$(document).ready(function () {
+  $('.slideshow_product_sameKind').slick({
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    speed: 600,
+    Infinity: true,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    arrows: true
   });
 }); // -------------------Slide-End--------------------------
 //--------------------Reponsive-Menu-------------------------------
