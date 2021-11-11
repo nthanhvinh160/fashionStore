@@ -4864,11 +4864,16 @@ body {
         -ms-object-fit: cover; }
 
 .wrapper2 {
-  padding: 10px 50px; }
+ 
+  max-width: 1320px;
+  margin: 0 auto; 
+}
   .wrapper2 .sameKind {
     position: relative;
     max-height: 390px;
-    padding-bottom: 40px; }
+    padding-bottom: 40px; 
+    margin-top: 20px;
+  }
     .wrapper2 .sameKind .new_product {
       padding: 10px;
       border: 0.1rem solid #FF4A17;
